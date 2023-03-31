@@ -1,0 +1,95 @@
+V "GNAT Lib v8"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U card%b		card.adb		e1e2ba6e NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-flteio.ads		20170908151217 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20170908151217 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20180111085525 cb378f71 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D card.adb		20220209214706 7dd6fa2c card%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valint.ads		20180111085525 48a52a3f system.val_int%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r31 3r6 3r29 4r6 4r45
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 15|3w10 3r33
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 15|2w10 2r35
+X 6 a-numeri.ads
+16K13*Numerics 32e17 15|4r10 4r49
+X 7 a-nuelfu.ads
+18K22*Elementary_Functions[8|39] 15|4w19 4r58
+X 11 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r27
+240U14*Get 15|59s4
+242U14*Put 15|58s4 63s4
+263U14*Put_Line 15|66s7 67s7 69s7 70s7
+X 15 card.adb
+6U11*card 6b11 73l5 73t9
+7a4 number{string} 59m8 61r9
+8i4 ret{integer} 61m17 63r34 65r7
+10V13 Sum_Of_Digits{natural} 10b13 10>27 10>39 19l8 19t21 51s14 51s40 51s66
+. 51s92 51s118 51s144 51s170 51s196
+10i27 N{natural} 12r23
+10i39 Base{natural} 15r32 16r23
+11i7 Sum{natural} 15m10 15r17 18r14
+12i7 Val{natural} 14r13 15r24 16m10 16r17
+21U14 calc 21b14 21>19 21<38 54l8 54t12 61s4
+21a19 number{string} 34r40 34r47 36r40 36r47 38r40 38r47 40r40 40r47 42r40
+. 42r47 44r40 44r47 46r40 46r47 48r40 48r47 52r41 52r48 52r89 52r96 52r137
+. 52r144 52r185 52r192 52r233 52r240 52r281 52r288 52r330 52r337 52r379 52r386
+21i38 ret{integer} 51m7 52m7 52r14
+23i4 doubled1{integer} 34m7 35m7 35r19 51r28
+24i4 doubled2{integer} 36m7 37m7 37r19 51r54
+25i4 doubled3{integer} 38m7 39m7 39r19 51r80
+26i4 doubled4{integer} 40m7 41m7 41r19 51r106
+27i4 doubled5{integer} 42m7 43m7 43r19 51r132
+28i4 doubled6{integer} 44m7 45m7 45r19 51r158
+29i4 doubled7{integer} 46m7 47m7 47r19 51r184
+30i4 doubled8{integer} 48m7 49m7 49r19 51r210
+
