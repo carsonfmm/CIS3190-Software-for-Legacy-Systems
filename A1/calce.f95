@@ -1,8 +1,6 @@
 program calce
 
 !     Name: Carson Mifsud
-!     Student Number: 1089936
-!     Email: cmifsud@uoguelph.ca
 !     Assignment Number: 4
 !     Date: April 8, 2022
    
