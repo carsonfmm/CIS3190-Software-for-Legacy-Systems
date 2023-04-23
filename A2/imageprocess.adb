@@ -1,6 +1,4 @@
 -- Name: Carson Mifsud
--- Student Number: 1089936
--- Email: cmifsud@uoguelph.ca
 -- Assignment Number: 2
 -- Date: March 4, 2022
 
